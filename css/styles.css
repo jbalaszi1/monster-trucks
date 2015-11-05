@@ -1,3 +1,42 @@
 body {
-background: green;
+  background: -webkit-linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #1e130c 10%, #9a8478 90%); /* W3C */
 }
+
+h1 {
+    text-align: center;
+    color: dodgerblue;
+}
+
+nav {
+text-align:center;
+}
+
+nav ul {
+display:inline-block;
+list-style:none; 
+}
+
+* html nav ul { 
+display:inline;
+}
+
+* html nav ul { 
+display:inline;
+}
+
+nav li {
+display:inline;   
+}
+
+nav a {
+float:left;
+text-decoration:none; 
+padding:0 30px; 
+color: white;
+}
+
+
